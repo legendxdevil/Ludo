@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ludo & Snake & Ladder Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Splash Screen -->
+  <div id="splash-screen" class="screen active">
+    <img src="assets/ludo-logo.png" alt="Ludo King Logo" class="logo">
+    <button id="continue-btn">Continue</button>
+  </div>
+
+  <!-- Game Selection Screen -->
+  <div id="game-selection" class="screen">
+    <h2>Select Game</h2>
+    <div class="game-options">
+      <div class="game-option" id="ludo-option">
+        <img src="assets/ludo-board.png" alt="Ludo Board">
+        <span>Ludo</span>
+      </div>
+      <div class="game-option" id="snake-option">
+        <img src="assets/snake-ladder-board.png" alt="Snake & Ladder Board">
+        <span>Snake & Ladder</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Player Setup Screen (to be filled later) -->
+  <div id="player-setup" class="screen"></div>
+
+  <!-- Game Board Screen (to be filled later) -->
+  <div id="game-board" class="screen"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
